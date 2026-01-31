@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article</title>
+    <!-- favicon -->
+    <link rel="icon" href="../imgs/konten1.webp" />
+    <!-- my style -->
+    <link rel="stylesheet" href="article.css" />
+    <!-- feathers icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <div id="scroll-progress"></div>
+    <article>
+      <!-- navbar -->
+      <nav class="nav">
+        <a href="/" class="back-btn"
+          >Back
+          <img src="roket.png" alt="emoji" class="emoji-roket" />
+        </a>
+      </nav>
+      <!-- end navbar -->
+      <!-- header (judul, penulis, waktu, icon share) -->
+      <header>
+        <div id="copyToast">Link telah disalin</div>
+        <div class="article-container">
+          <h1 id="title"></h1>
+          <div class="caption">
+            <span id="author" class="author"></span>
+            <span id="meta" class="date"></span>
+            <button class="copy-link" id="copyLinkBtn" aria-label="Copy link">
+              <!-- icon share -->
+              <i data-feather="share-2"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+
+      <!-- image -->
+      <div class="article-cover">
+        <img id="cover" />
+      </div>
+      <!-- end image -->
+      <!-- content -->
+      <div id="content" class="content"></div>
+      <!-- end content -->
+      <!-- footer -->
+      <footer>
+        <div class="footer-inner"></div>
+        <div class="close">
+          <div class="top">
+            <img src="fatur.jpg" alt="foto" class="avatar" />
+            <div class="author-text">
+              <h3>
+                Written by Fatur
+                <img src="planet2.png" alt="emoji" class="emoji" />
+              </h3>
+              <p>Junior Frontend Developer</p>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>&#169; 2025 Fatur - ファトゥール</p>
+            <a href="https://www.linkedin.com/in/faturrahman-0145ftr"
+              >Connect</a
+            >
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+    </article>
+    <script>
+      feather.replace();
+    </script>
+    <script src="article.js"></script>
+  </body>
+</html>

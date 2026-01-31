@@ -1,0 +1,125 @@
+<p>
+  Tailwind CSS dan Bootstrap adalah dua framework CSS yang paling populer saat
+  ini. Masing-masing memiliki pendekatan yang berbeda dalam membangun antarmuka
+  pengguna yang responsif dan menarik. Tapi, apa perbedaannya?
+</p>
+<br />
+<h2>Apa itu Tailwind CSS?</h2>
+<br />
+<p>
+  Tailwind CSS adalah framework berbasis utility-first yang memungkinkan
+  pengembang menggunakan kelas CSS langsung dalam markup HTML mereka. Dengan
+  pendekatan ini, Tailwind memberikan fleksibilitas lebih dalam membangun UI
+  tanpa bergantung pada komponen bawaan. Analoginya seperti kita membeli kain
+  yang bisa dijahit sesuai keinginan, lebih bebas tapi membutuhkan waktu yang
+  lebih lama.
+</p>
+<br />
+<p>
+  Tailwind CSS bekerja dengan pendekatan atomic CSS, di mana setiap kelas
+  mewakili satu fungsi spesifik. Hal ini memudahkan pengembang untuk membangun
+  desain unik tanpa perlu menimpa gaya bawaan seperti yang sering terjadi di
+  Bootstrap.
+</p>
+<br />
+<h3>Contoh kode:</h3>
+<pre>
+<code>
+&lt;div class="bg-blue-500 text-white p-4 rounded-lg"&gt;
+  &lt;h1 class="text-xl font-bold"&gt;Hello World&lt;/h1&gt;
+  &lt;p class="text-sm"&gt;
+    This is a simple example of using Tailwind CSS
+  &lt;/p&gt;
+&lt;/div&gt;
+</code>
+</pre>
+<br />
+<p>
+  Di atas, kita menggunakan beberapa utility class untuk membuat sebuah div
+  dengan background biru, teks putih, padding 4 unit, border radius besar, judul
+  dengan ukuran xl dan font tebal, serta paragraf dengan ukuran kecil.
+</p>
+<br />
+<p>
+  Kelebihan dari Tailwind CSS adalah kita bisa bebas mengkustomisasi tampilan
+  web kita tanpa harus menulis kode CSS sama sekali. Kita hanya perlu
+  menggunakan class-class yang sudah disediakan oleh Tailwind. Selain itu,
+  Tailwind juga mendukung responsive design dengan mudah. Kita bisa menambahkan
+  prefix seperti sm:, md:, lg:, atau xl: di depan nama class untuk mengatur
+  tampilan di berbagai ukuran layar.
+</p>
+<br />
+<h2>Apa itu Bootstrap?</h2>
+<br />
+<p>
+  Bootstrap adalah framework CSS yang menyediakan komponen siap pakai seperti
+  tombol, formulir, navigasi, dan lainnya. Framework ini lebih terstruktur dan
+  cocok untuk pengembang yang ingin membangun desain UI dengan cepat tanpa
+  banyak kustomisasi. Analoginya seperti kita membeli baju yang sudah jadi lebih
+  cepat dan mudah tapi terbatas
+</p>
+<br />
+<p>
+  Bootstrap menggunakan pendekatan berbasis grid yang sangat membantu dalam
+  membuat desain responsif dengan cepat. Selain itu, fitur seperti JavaScript
+  bawaan untuk modal, dropdown, dan carousel mempermudah pengembangan tanpa
+  perlu menulis banyak kode tambahan.
+</p>
+<br />
+<h3>Contoh kode:</h3>
+<pre><code>
+&lt;div class="card"&gt;
+  &lt;img src="https://via.placeholder.com/150" class="card-img-top" alt="Gambar Card" /&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;Judul Card&lt;/h5&gt;
+    &lt;p class="card-text"&gt;Ini adalah contoh card menggunakan Bootstrap 5.&lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary"&gt;Lihat Detail&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<br />
+<p>
+  Di atas, kita menggunakan beberapa elemen HTML seperti div, img, h5, p, dan a
+  untuk membuat sebuah card dengan gambar di atas, judul, teks, dan tombol di
+  bawahnya. Kita juga menggunakan beberapa class komponen dari Bootstrap seperti
+  card, card-img-top, card-body, card-title, card-text, dan btn untuk mengatur
+  tampilan dari elemen-elemen tersebut.
+</p>
+<br />
+<p>
+  Kelebihan dari Bootstrap adalah kita bisa membuat web yang profesional dan
+  konsisten dengan cepat dan mudah. Kita hanya perlu menggunakan class-class
+  yang sudah disediakan oleh Bootstrap tanpa harus menulis kode CSS sendiri.
+  Selain itu, Bootstrap juga mendukung responsive design dengan sistem grid yang
+  fleksibel. Kita bisa menggunakan class seperti col-, col-sm-, col-md-,
+  col-lg-, atau col-xl- untuk mengatur lebar kolom di berbagai ukuran layar.
+</p>
+<br />
+<h3>Kesimpulan singkat</h3>
+<br />
+<p>
+  Pakai Bootstrap jika ingin mempercepat dan mempermudah proses pengembangan
+  website, pakai Tailwind CSS jika ingin mengembangkan website dengan fleksibilitas yang tinggi
+</p>
+
+<!-- <pre>
+  (function () {
+  document.oncontextmenu = null;
+  document.onselectstart = null;
+  document.onmousedown = null;
+  document.onkeydown = null;
+
+  document.body.style.userSelect = "text";
+  document.body.style.webkitUserSelect = "text";
+  document.body.style.msUserSelect = "text";
+
+  document.querySelectorAll("*").forEach(el => {
+    el.style.userSelect = "text";
+    el.oncontextmenu = null;
+    el.onselectstart = null;
+    el.onmousedown = null;
+  });
+
+  alert("Copy & seleksi teks berhasil diaktifkan");
+})();
+</pre> -->
